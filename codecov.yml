@@ -5,7 +5,7 @@ coverage:
   status:
     project:
       default:
-        target: 85%
+        target: 45%
         threshold: 0%
         base: auto
         if_not_found: failure
