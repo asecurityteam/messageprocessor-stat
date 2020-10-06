@@ -16,7 +16,7 @@ type dummyMessageProcessor struct {
 	testFunc func(ctx context.Context)
 }
 
-func (t *dummyMessageProcessor) ProcessMessage(ctx context.Context, record *kinesis.Record) messageprocessor.MessageProcessError {
+func (t *dummyMessageProcessor) ProcessMessage(ctx context.Context, record *kinesis.Record) messageprocessor.MessageProcessorError {
 	return nil
 }
 

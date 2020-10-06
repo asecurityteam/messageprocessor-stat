@@ -60,7 +60,7 @@ func TestStatMessageProcessor_ProcessMessageFailure(t *testing.T) {
 
 	mockMessageProcessor := NewMockMessageProcessor(ctrl)
 	mockStater := NewMockStat(ctrl)
-	mockMessageProcessorError := NewMockMessageProcessError(ctrl)
+	mockMessageProcessorError := NewMockMessageProcessorError(ctrl)
 
 	statMessageProcessor := StatMessageProcessor{
 		ConsumedCounter:       consumedCounter,
