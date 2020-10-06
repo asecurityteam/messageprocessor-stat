@@ -21,7 +21,7 @@ type StatBinder struct {
 
 // ProcessMessage injects an `xstats.XStater` into the context and invokes the
 // wrapped `MessageProcessor`.
-func (t *StatBinder) ProcessMessage(ctx context.Context, record *kinesis.Record) messageprocessor.MessageProcessError {
+func (t *StatBinder) ProcessMessage(ctx context.Context, record *kinesis.Record) messageprocessor.MessageProcessorError {
 	ctx = xstats.NewContext(ctx, xstats.Copy(t.stats))
 	return t.wrapped.ProcessMessage(ctx, record)
 }

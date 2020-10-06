@@ -87,7 +87,7 @@ type StatMessageProcessor struct {
 
 // ProcessMessage injects an `xstats.XStater` into the request and invokes the
 // wrapped `MessageProcessor.ProcessMessage`.
-func (t StatMessageProcessor) ProcessMessage(ctx context.Context, record *kinesis.Record) messageprocessor.MessageProcessError {
+func (t StatMessageProcessor) ProcessMessage(ctx context.Context, record *kinesis.Record) messageprocessor.MessageProcessorError {
 	stat := xstats.FromContext(ctx)
 	// consumerLag - Time.Duration between the time immediately before the message is processed and its Record.ApproximateArrivalTimestamp,
 	//which is the timestamp of when the record was inserted into the Kinesis stream.

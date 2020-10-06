@@ -1,5 +1,5 @@
-github.com/asecurityteam/messageprocessor v0.1.0 h1:xmI/q1N2puOG9ZZgjTgX/6eWTq0vqEttXgzJCsUQSEc=
-github.com/asecurityteam/messageprocessor v0.1.0/go.mod h1:WicatBxmnXl+KcARW8Kmuvw/Fo3EVxIHkbslI8iS1i0=
+github.com/asecurityteam/messageprocessor v0.2.0 h1:qwjHbtlzJ3TljVqR3RAJ2xL+AW6+RCrgX46vf9JuPlM=
+github.com/asecurityteam/messageprocessor v0.2.0/go.mod h1:WicatBxmnXl+KcARW8Kmuvw/Fo3EVxIHkbslI8iS1i0=
 github.com/aws/aws-sdk-go v1.35.0 h1:Pxqn1MWNfBCNcX7jrXCCTfsKpg5ms2IMUMmmcGtYJuo=
 github.com/aws/aws-sdk-go v1.35.0/go.mod h1:H7NKnBqNVzoTJpGfLrQkkD+ytBA93eiDYi/+8rV9s48=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
