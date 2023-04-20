@@ -36,5 +36,6 @@ func TestStatBinder_ProcessMessage(t *testing.T) {
 		testFunc: processMessageFunc,
 	})
 
-	messageProcessor.ProcessMessage(context.Background(), &kinesis.Record{})
+	e := messageProcessor.ProcessMessage(context.Background(), &kinesis.Record{})
+	assert.Nil(t, e)
 }
