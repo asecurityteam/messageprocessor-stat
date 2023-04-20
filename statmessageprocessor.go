@@ -103,7 +103,7 @@ func (t StatMessageProcessor) ProcessMessage(ctx context.Context, record *kinesi
 
 	var start = time.Now()
 	err := t.wrapped.ProcessMessage(ctx, record)
-	var end = time.Now().Sub(start)
+	var end = time.Since(start)
 	if err == nil {
 		// consumerSuccessCounter - Incremented for every message processed successfully
 		stat.Count(t.ConsumerSuccessCounter, 1)
