@@ -1,8 +1,6 @@
 <a id="markdown-messageprocessor-stat---an-implementation-of-messageprocessor-that-adds-stats" name="messageprocessor-stat---an-implementation-of-messageprocessor-that-adds-stats"></a>
 # messageprocessor - An implementation of messageprocessor that adds stats
 [![GoDoc](https://godoc.org/github.com/asecurityteam/messageprocessor-stat?status.svg)](https://godoc.org/github.com/asecurityteam/messageprocessor-stat)
-[![Build Status](https://travis-ci.com/asecurityteam/logevent.png?branch=master)](https://travis-ci.com/asecurityteam/messageprocessor-stat)
-[![codecov.io](https://codecov.io/github/asecurityteam/messageprocessor-stat/coverage.svg?branch=master)](https://codecov.io/github/asecurityteam/logevent?branch=master)
 <!-- TOC -->
 
 - [messageprocessor-stat - An implementation of messageprocessor that adds stats](#messageprocessor-stat---an-implementation-of-messageprocessor-that-adds-stats)
