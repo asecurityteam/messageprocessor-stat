@@ -1,8 +1,19 @@
 <a id="markdown-messageprocessor-stat---an-implementation-of-messageprocessor-that-adds-stats" name="messageprocessor-stat---an-implementation-of-messageprocessor-that-adds-stats"></a>
 # messageprocessor - An implementation of messageprocessor that adds stats
 [![GoDoc](https://godoc.org/github.com/asecurityteam/messageprocessor-stat?status.svg)](https://godoc.org/github.com/asecurityteam/messageprocessor-stat)
-[![Build Status](https://travis-ci.com/asecurityteam/logevent.png?branch=master)](https://travis-ci.com/asecurityteam/messageprocessor-stat)
-[![codecov.io](https://codecov.io/github/asecurityteam/messageprocessor-stat/coverage.svg?branch=master)](https://codecov.io/github/asecurityteam/logevent?branch=master)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_messageprocessor-stat&metric=bugs)](https://sonarcloud.io/dashboard?id=asecurityteam_messageprocessor-stat)
+[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_messageprocessor-stat&metric=code_smells)](https://sonarcloud.io/dashboard?id=asecurityteam_messageprocessor-stat)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_messageprocessor-stat&metric=coverage)](https://sonarcloud.io/dashboard?id=asecurityteam_messageprocessor-stat)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_messageprocessor-stat&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=asecurityteam_messageprocessor-stat)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_messageprocessor-stat&metric=ncloc)](https://sonarcloud.io/dashboard?id=asecurityteam_messageprocessor-stat)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_messageprocessor-stat&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=asecurityteam_messageprocessor-stat)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_messageprocessor-stat&metric=alert_status)](https://sonarcloud.io/dashboard?id=asecurityteam_messageprocessor-stat)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_messageprocessor-stat&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=asecurityteam_messageprocessor-stat)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_messageprocessor-stat&metric=security_rating)](https://sonarcloud.io/dashboard?id=asecurityteam_messageprocessor-stat)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_messageprocessor-stat&metric=sqale_index)](https://sonarcloud.io/dashboard?id=asecurityteam_messageprocessor-stat)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=asecurityteam_messageprocessor-stat&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=asecurityteam_messageprocessor-stat)
+
 <!-- TOC -->
 
 - [messageprocessor-stat - An implementation of messageprocessor that adds stats](#messageprocessor-stat---an-implementation-of-messageprocessor-that-adds-stats)
