@@ -1,6 +1,6 @@
 module github.com/asecurityteam/messageprocessor-stat
 
-go 1.19
+go 1.27.1
 
 require (
 	github.com/asecurityteam/messageprocessor v0.4.0
